@@ -1,0 +1,46 @@
+
+body {
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-color: black;
+    overflow: hidden;
+
+}
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black
+} 
+#content {
+    margin: 40px;
+    
+}
+
+.inputs {
+    font-size: 17px;
+    padding: 6px 12px;
+    background: rgb(31, 32, 35);
+    border: 1px solid rgb(60, 63, 68);
+    border-radius: 10px;
+    font-size: 13px;
+    color: rgb(247, 248, 248);
+    height: 22px;
+    appearance: none;
+    transition: border 0.15s ease 0s;
+    :focus{
+        outline: none;
+        box-shadow: none;
+        border-color: rgb(100, 153, 255);
+    }
+
+}
+

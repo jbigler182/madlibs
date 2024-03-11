@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+  <title>Madlibs</title>
+  <link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+  <h1 class="inputs">Madlibs</h1>
+  <form action="/story">
+    {% for prompt in prompts %}
+      <p class="inputs">{{ prompt }}:
+        <input placeholder="{{prompt}}" name="{{ prompt }}">
+      </p>
+    {% endfor %}
+    <button>Submit</button>
+  </form>
+</body>
+</html>
